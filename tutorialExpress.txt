@@ -1,0 +1,12 @@
+1: npm init -y
+
+2: npm install express ejs
+
+3: criar arquivo index.js e importar o express nele inicialmente usar require ao inves do import, e importar o 'require' tambem
+
+4: criar uma pasta pra a requisição buscar views/page.ejs
+
+5: cria res.render e renderizar o arquivo page.ejs. tambem é possivel adicionando um segundo parâmetro com por exemplo o 'name' no res.render e depois chamalo na page.ejs com uma tag especial ex: <%=name%>
+
+6: criar um um arquivo em views/header.ejs e footer.ejs depois criar no header a parte html que compõe o header e no footer o mesmo depois em page.ejs usar a tag especial com include 
+<%- include('header')%>
