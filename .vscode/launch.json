@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "name": "ws://127.0.0.1:9229/109e7483-27d6-4960-bc99-fe66f2575ae8",
+            "request": "launch",
+            "url": "ws://127.0.0.1:9229/109e7483-27d6-4960-bc99-fe66f2575ae8"
+        }
+    ]
+}
